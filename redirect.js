@@ -17,7 +17,7 @@ async function showMessages() {
     redirectMessage.innerText = messages[i];
     await wait(950);
   }
-  window.location.href = '/';
+  window.location.href = 'index.html';
 }
 
 showMessages();
